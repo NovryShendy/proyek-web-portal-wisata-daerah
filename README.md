@@ -5,3 +5,4 @@
  [x] Download template 
  [x] Download Ci 3
  [x] Membuat DataBase
+ [x] Templating Admin

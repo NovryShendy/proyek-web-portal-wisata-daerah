@@ -20,6 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data["content"] = "page_admin/halo/test";
+        $this->load->view('template_admin/layout',$data);
 	}
 }
